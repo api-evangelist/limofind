@@ -1,0 +1,52 @@
+# LimoFind
+
+> LimoFind is a United States consumer marketplace and quote-request service for ground
+> transportation rentals — limousines, party buses, charter buses, sprinter buses, mini buses and
+> shuttle buses — connecting travelers with local operators near them. Quote requests are organized
+> by occasion and vehicle class across state and city landing pages. LimoFind publishes no public
+> API, SDK, or developer documentation.
+
+<!--
+generated: '2026-07-19'
+method: generated
+source: apis.yml + provider's own archived homepage (limofind.com); origin returned HTTP 525 on 2026-07-19
+-->
+
+## APIs
+
+LimoFind publishes no public API. No OpenAPI, AsyncAPI, GraphQL, webhook, or MCP surface was found
+on the provider's own properties, and no `limofind` GitHub organization exists (HTTP 404).
+
+## Site
+
+- [LimoFind](https://limofind.com): Home and instant online quote request.
+- [Blog](https://limofind.com/blog/): Rental cost and booking guidance articles.
+- [Limo service near me](https://limofind.com/limo-service-near-me/): Limousine rental search.
+- [Party bus rental near me](https://limofind.com/party-bus-rental-near-me/): Party bus rental search.
+- [Charter bus rental near me](https://limofind.com/charter-bus-rental-near-me/): Charter bus rental search.
+
+## Services
+
+Occasion-based booking pages published by the provider:
+
+- [Airport limo service](https://limofind.com/airport-limo-service/)
+- [Wedding limo service](https://limofind.com/wedding-limo-service/)
+- [Prom limo service](https://limofind.com/prom-limo-service/)
+- [Corporate limo service](https://limofind.com/corporate-limo-service/)
+- [Bachelorette party limo service](https://limofind.com/bachelorette-party-limo-service/)
+- [Birthday party limo service](https://limofind.com/birthday-party-limo-service/)
+- [Concert and sporting event limo service](https://limofind.com/concert-and-sporting-event-limo-service/)
+- [Funeral limo service](https://limofind.com/funeral-limo-service/)
+- [Night on the town limo service](https://limofind.com/night-on-the-town-limo-service/)
+- [Kids party limo service](https://limofind.com/kids-party-limo-service/)
+
+## Vehicles
+
+- [Sprinter bus rental](https://limofind.com/sprinter-bus-rental/)
+- [Mini bus rental](https://limofind.com/mini-bus-rental/)
+- [Shuttle bus service](https://limofind.com/shuttle-bus-service/)
+
+## Artifacts
+
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/limofind/refs/heads/main/security/limofind-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/limofind/refs/heads/main/apis.yml): API Evangelist network profile.
