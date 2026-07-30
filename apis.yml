@@ -1,19 +1,48 @@
 aid: limofind
-name: limofind
-description: limofind is a company surfaced as a portfolio company of slow-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: LimoFind
+description: LimoFind is a United States consumer marketplace and quote-request service for ground
+  transportation rentals — limousines, party buses, charter buses, sprinter buses, mini buses and
+  shuttle buses — connecting travelers with local operators near them. The site runs an instant
+  online quote funnel organized by occasion (weddings, proms, airport transfers, corporate travel,
+  bachelor and bachelorette parties, birthdays, concerts and sporting events, funerals, wine tasting
+  tours, nights out) and by vehicle class, backed by a large set of state and city landing pages
+  covering major metropolitan markets across the country. LimoFind is a WordPress-published consumer
+  property with a blog covering rental costs and booking guidance; it publishes no public developer
+  program, API, SDK or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/limofind/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.limofind.com/wp-content/uploads/2020/01/banner-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-site-status: origin unreachable (HTTP 525) on 2026-07-19; profile enriched from the provider's own
+  archived homepage
+x-developer-surface: none observed (no API, docs, SDK, GitHub organization or event surface)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Transportation
+- Ground Transportation
+- Travel
+- Marketplace
+- Limousine
+- Charter Bus
+- Local Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/limofind-domain-security.yml
 - type: Website
   url: https://limofind.com
+- type: Blog
+  url: https://limofind.com/blog/
+- type: LLMsTxt
+  url: llms/limofind-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
