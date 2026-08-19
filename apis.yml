@@ -31,7 +31,7 @@ x-tier-reason: portfolio-lead
 x-site-status: origin unreachable (HTTP 525) on 2026-07-19; profile enriched from the provider's own
   archived homepage
 x-developer-surface: none observed (no API, docs, SDK, GitHub organization or event surface)
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
